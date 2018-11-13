@@ -1,0 +1,22 @@
+.booksWrapper{
+    .searchContainer{
+        margin: 20px 0;
+    }
+    .search-box{
+        width: 300px;
+        height: 35px;
+    }
+    .back{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .page-link{
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+        -moz-user-select: none;     /* Firefox all */
+        -ms-user-select: none;      /* IE 10+ */
+        user-select: none; 
+    }
+    .disabled{
+        cursor: default;
+    }
+}
